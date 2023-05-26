@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/adm.css">
+    <link rel="stylesheet" href="css/fav.css">
+    <title>Area Adiministrador</title>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <img src="img/logo.png" alt="" class="logo">
+            <ul class="menu">
+                <li class="li-menu"><a href="adm.html" class="itens">Home</a></li>
+                <li class="li-menu"><a href="sobre.html" class="itens">Sobre Nós</a></li>
+                <li class="li-menu"><a href="login.html" class="itens">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <ul class="menu-adm">
+        <li>
+            <a href="cadastro.html">
+            <input type="submit" value="Cadastrar Cliente" class="btn-menu">
+            </a>
+        </li>
+        <li>
+            <a href="visita.html">
+            <input type="submit" value="Agendar Visita" class="btn-menu">
+            </a>
+        </li>
+        <li>
+            <input type="submit" value="Listar Visitas" class="btn-menu" onclick="addVisita()"/>
+        </li>
+    </ul>
+
+    <table border="1">
+        <tr class="linha1">
+        <td align="center">Tipo</td>
+        <td align="center">Características</td>
+        <td align="center">Local</td>
+        <td align="center">Tamanho</td>
+        <td align="center">Preço</td>
+        </tr>
+        <tr class="visita-off" id="visita">
+            <td align="center">Casa</td>
+            <td align="center">Genebra</td>
+            <td align="center">Bela Vista</td>
+            <td align="center">24m²</td>
+            <td align="center">R$ 358.015</td>
+            </tr>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

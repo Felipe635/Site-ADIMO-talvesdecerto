@@ -1,0 +1,27 @@
+.linha1{
+    font-weight: bold;
+}
+
+.linha2-off{
+   display: none;
+}
+
+.linha2-on{
+    display : table-row;
+}
+
+.linha3-off{
+    display: none;
+ }
+ 
+ .linha3-on{
+     display : table-row;
+ }
+
+ .visita-on{
+    display : table-row;
+ }
+
+ .visita-off{
+    display: none;
+ }
